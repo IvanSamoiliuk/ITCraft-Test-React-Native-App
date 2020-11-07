@@ -34,7 +34,6 @@ export const AutorsScreen = ({ navigation }) => {
                     setAutors(newAutors);
                     setError(false);
                     setLoading(false);
-                    console.log(dWidth, dHeight);
                 });
             })
             .catch((e) => setError(true));

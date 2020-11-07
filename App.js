@@ -41,11 +41,7 @@ export default function App() {
                             elevation: 0,
                             shadowOpacity: 0,
                         },
-
                         headerTitleAlign: "left",
-                        headerBackTitleStyle:{
-                            backgroundColor: 'red'
-                        }
                     }}
                 />
                 <Stack.Screen
